@@ -1,0 +1,98 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #006bb6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+/* Default h1 styling for all pages */
+h1 {
+    font-size: 3.5em; /* Default size for homepage */
+}
+
+/* Smaller h1 for the career page */
+body.career-page h1 {
+    font-size: 2.5em; /* Smaller heading for Career & Achievements page */
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #004080; /* Darker blue for visibility */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Fix for disappearing links */
+nav ul li a:visited {
+    color: #ADD8E6; /* Light blue for better visibility */
+}
+
+nav ul li a:active, 
+nav ul li a:focus, 
+nav ul li a:hover {
+    color: #fdb927; /* Golden-yellow for contrast */
+    background-color: rgba(255, 255, 255, 0.2); /* Slight highlight */
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d3d3d3; /* Changed from white to light grey */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Image Styling */
+.main-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #006bb6;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+}
